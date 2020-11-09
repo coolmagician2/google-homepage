@@ -1,0 +1,1 @@
+I will be recreating the Google homepage as a way to practice my HTML and CSS  skills that I've learned so far.
