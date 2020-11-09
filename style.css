@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 0px 20px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    margin-right: 18px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    padding: inherit;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.google-logo{
+    width: 325px;
+}
+
+form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    position: relative;
+}
+
+input[type=text]{
+    width: 500px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid rgb(211, 213, 221);
+    margin-bottom: 40px;
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/116/116836.svg');
+    background-position: 20px 18px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+input[type=text]:hover{
+    box-shadow: 0px 0px 10px rgb(211, 213, 221);
+    border: 1px solid transparent;
+}
+
+input[type=button]{
+    background-color: rgb(218, 218, 218);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(53, 53, 53);
+    font-family: Arial, sans-serif;
+}
